@@ -7,8 +7,8 @@ class ClientApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Guojam is Handsome Chat OS V1.0")
-        self.server_ip = "chat.guojam.xyz"  # 服务器IP
-        self.port = 34568
+        self.server_ip = "server_IP"  # 服务器IP
+        self.port = 34568 
         self.my_code = "anonymous"  # 默认代号
         self.target_code = "guojam"  # 默认目标代号
         self.server_socket = None
